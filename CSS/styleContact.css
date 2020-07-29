@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+.info{ width: 100%; height: 180px; background-color: aliceblue;}
+
+.logo{ width: 380px; height: 180px; float: left; margin: 0px 10px;}
+
+.logo img{width: 380px;; height: 160px;}
+
+.search{ width: 600px; height: 180px; float: left; text-align: center; position: relative;}
+
+.search input{ width: 500px; height: 40px; margin-top: 80px; border: 1px solid #878686;
+	
+        -webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+}
+.iconsearch{ width: 32px; height: 32px; position: absolute; top: 85px; right: 55px;}
+
+.iconsearch img {width: 32px; height: 32px;}
+
+.login { width: 200px; height: 180px; float: right;}
+
+.login p{ margin-top: 85px; text-align: center; font-size: 18px; color: #F58A1F;}
+
+.container{ max-width: 1280px; height: auto; margin: 0 auto; background-color: #FFFFFF;}
+
+
+header{width: 100%; height: auto;}
+
+nav{width: 100%; height: 30px; background-color: #F90; margin-bottom: 5px;}
+
+nav a{color: #FFF; font-weight: bold; font-size: 20px; text-decoration: none; width: 150px; height: 30px; text-align: center; float: left; line-height: 30px;}
+
+nav a:hover{color: #F36; background-color: #FFC;}
+
+.contentcontact { width: 100%; min-height: 500px; background-color: #363;}
+.contactleft{ width: 50%; float: left;}
+.contactleft h2{ text-align: center; font-size: 36px; color: #FFF;}
+.contactleft table td{ padding: 5px; font-size: 20px; color: #FFF;}
+.contactleft input{ width: 250px; height: 30px;}
+.contactleft .btn{ width: 100px;}
+.contactright{ width: 50%; min-height: 500px; float: right;}
+.contactright iframe{ margin-top: 20px; margin-left: 20px;}
+
+footer{width: 100%; height: 200px; background-color: #060; color: #FFF; clear: both;}
+footer .footer_left{width: 40%; height: 200px; float: left;}
+footer .footer_center{width: 40%; height: 200px; float: left;}
+footer .footer_right{width: 20%; height: 100px; float:right; margin-top: 40px; text-align: center;}
+ul {list-style-type: square; padding-top: 20px;}
+ul li {font-size: 18px; line-height: 30px;}
+
+
+
